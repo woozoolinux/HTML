@@ -1,0 +1,172 @@
+body{
+  margin: 0;
+  font-family: CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif);
+}
+
+nav{
+  background-color: black;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+main{
+  background-color: blue;
+  height: 711.16px;
+  background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+  background-size: 175%;
+  background-position: 46% 4%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer{
+  height: 530px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+a:hover{
+  color: green;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+.white-text{
+  color: white;
+}
+
+.nav-item{
+  padding: 28px; 17px;
+  font-weight: 700;
+}
+
+
+.headline{
+  font-size: 156px;
+  font-weight: 900;
+  color: #1ed760;
+}
+
+.headline-first{
+  position: relative;
+  left: -2.5em;
+  padding-bottom: 40px;
+}
+
+.sub-headline{
+  color: #1ed760;
+  text-align: center;
+  font-size: 18px;
+  padding-bottom: 40px;
+}
+
+.button{
+  text-align: center;
+}
+
+.button-style{
+  padding: 14px 32px;
+  background-color: #1ed760;
+  border-radius: 500px;
+  font-size: inherit;
+  color: #2941ab;
+  font-weight: 700;
+  border: none;
+}
+
+button:hover{
+  transform: scale(1.1);
+}
+
+.container {
+
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.footer-first{
+  display: flex;
+  justify-content: space-between;
+  height: 346px;
+}
+
+.first-box{
+  width: 60%;
+  display: flex;
+  justify-content: space-beetween;
+}
+
+.second-box{
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.column{
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-box {
+  width: 54px;
+  height: 54px;
+  background-color: #222322;
+  border-radius: 50%;
+  margin-right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  font-size: 24px;
+}
+.icon:hover {
+  color: #2de26d;
+}
+
+.sub-title {
+  color: #919496;
+  font-weight: 900;
+  margin: 20px 0px;
+}
+
+.long-title{
+  width: 250px;
+}
+
+
+.footer-menu-item{
+  padding-bottom: 15px;
+  padding-top: 3px;
+  font-size: 16px;
+}
+
+.usa{
+  text-align: end;
+  color: #919496;
+  font-size: 12px;
+}
+
+.last-line{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.second-line-item{
+  color: #919496;
+}
