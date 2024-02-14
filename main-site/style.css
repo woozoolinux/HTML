@@ -17,3 +17,11 @@ main a {
   color: black;
   font-weight: 600;
 }
+
+.divide {
+  display: flex;
+}
+
+.box-fit {
+  padding: 10px;
+}
