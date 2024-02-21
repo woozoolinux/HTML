@@ -1,0 +1,17 @@
+/* 간단한 CSS 스타일링. 필요에 따라 추가 및 수정 가능 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+input[type="file"] {
+    margin: 10px 0;
+}
+
+pre {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    padding: 10px;
+    overflow: auto;
+}
+
